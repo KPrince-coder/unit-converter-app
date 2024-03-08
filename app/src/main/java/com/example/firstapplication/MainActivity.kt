@@ -96,7 +96,9 @@ fun UnitConverter() {
     }
 
     Column(
-        modifier = Modifier.fillMaxSize(),
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(16.dp),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
@@ -273,7 +275,7 @@ fun UnitConverter() {
             }",
             style = MaterialTheme.typography.headlineMedium,
             fontFamily = FontFamily.Monospace,
-            )
+        )
     }
 }
 
